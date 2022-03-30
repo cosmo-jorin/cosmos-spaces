@@ -1,11 +1,12 @@
 {
-    "homepage": "https://cosmo-jorin.github.io/cosmos-spaces",
+    "homepage": "https://cosmo-jorin.github.io/cosmos-spaces/",
     "name": "cosmo-spaces",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "predeploy": "npm run compile",
-        "deploy": "gh-pages -d compile",
+        "build": "npm run wepack-w&&node server.js&&npm run sass",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "webpack": "webpack-cli --config webpack.js",
         "webpack-w": "webpack-cli --config webpack.js --watch",
         "webpack-prod": "webpack-cli --config webpack-prod.js",
