@@ -1,0 +1,263 @@
+:root {
+    --back-color:#FFFFFF;
+    --subtitle-color:#F0F6F7FF;
+    --math-color: #70C1B3;
+    --other-color: #e4f0b1;
+    --coding-color: #B2DBBF;
+    --hover-color: #001524;
+    --primary: #E4F0B1;
+    --hover-font: #FFFFFF;
+}
+
+.collapsible {
+  padding: 12px;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  background-color: inherit;
+  border-radius:64px;
+}
+
+.active, .collapsible:hover {
+  border-radius:64px;
+}
+
+
+body {
+  background-color: var(--back-color);
+}
+
+.btn-primary {
+  border-radius:64px;
+  background-color:#1e5cac;
+  border-color:#295b9c;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:hover,
+.btn-primary:checked,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary::selection {
+  background-color: #2daceb;
+  border-color: #2daceb;
+  filter: brightness(100%);
+}
+
+.title-color {
+  background-color: black;
+}
+
+.subtitle-color {
+  background-color: var(--subtitle-color);
+}
+
+.white {
+  color:white;
+  background-color: inherit;
+}
+
+.topMargin {
+  margin-top: 25pt;
+  margin-bottom: 25pt;
+}
+
+.rtl {
+  text-align: right;
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+a:hover {
+  color:inherit;
+  text-decoration: none;
+}
+
+.container {
+  word-wrap: break-word;
+}
+
+.card {
+  margin-top: 25pt;
+  max-width: 20rem;"
+}
+
+.pagination-position {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.image-left {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.textleft{
+  text-align: left;
+  text-justify: inter-word;
+}
+
+.textright{
+  text-align: right;
+  text-justify: inter-word;
+}
+
+.image-right {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.postCard {
+    margin-top:16px;
+}
+
+.tomato {
+  margin-left: 16px;
+
+}
+
+.cardMore {
+  display: flex;
+}
+
+.cardMore p {
+  flex-grow: 1;
+}
+
+.headersSpace {
+  margin-bottom:16px;
+  white-space: nowrap;
+}
+
+.postTitleMargin {
+  margin-bottom: 50px;
+}
+
+.LastSpace {
+  margin-bottom:-8px;
+}
+
+.pr {
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: break-spaces;
+}
+
+.spacer {
+  white-space: break-spaces;
+}
+/* Post mini */
+.postmini {
+  display:flex;
+}
+
+.postmini-img {
+  padding: 0px 16px ;
+}
+
+.cimg {
+  width:128px;
+  height:128px;
+  border-radius:64px;
+}
+
+.contactButton {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.autoright {
+  margin-right: 16px;
+}
+
+.math {
+  border-color:     var(--math-color);
+  background-color: var(--math-color);
+  color: #000000;
+}
+
+.math:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+}
+
+.mathBlock {
+  background-color: var(--math-color);
+  border-color:     var(--math-color);
+  color: #000000;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.mathBlock:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.coding {
+  border-color:     var(--coding-color);
+  background-color: var(--coding-color);
+  color: #000000;
+}
+
+.coding:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+}
+
+.codingBlock {
+  border-color:     var(--coding-color);
+  background-color: var(--coding-color);
+  color: #000000;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.codingBlock:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.other {
+  border-color:     var(--other-color);
+  background-color: var(--other-color);
+  color: #000000;
+}
+
+.other:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+}
+
+.otherBlock {
+  border-color:     var(--other-color);
+  background-color: var(--other-color);
+  color: #000000;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.otherBlock:hover {
+  border-color:     var(--hover-color);
+  background-color: var(--hover-color);
+  color: var(--hover-font);
+  padding: 8px;
+  border-radius: 16px;
+}
+

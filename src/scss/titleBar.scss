@@ -1,0 +1,77 @@
+@media all and (min-width: 900px) {
+    .title-bar {
+        background: $title-bar-back-color;
+        grid-area: $title-bar;
+        font-family: 'Poppins', 'sans-serif';
+    }
+    ul li {
+        padding: 0 5px 5px 5px;
+        display: inline;
+    }
+
+    #title-bar-logo {
+        max-height: 100px;
+        display: block; // Makes svg "findable"
+        margin: auto; // And lets a easy margin creator
+    }
+
+    #container {
+        width: 100%;
+    }
+    #left {
+        float: left;
+        padding: 10px 0 10px $title-bar-margin;
+        justify-items: center;
+    }
+    #right {
+        float: right;
+        padding: 10px $title-bar-margin 10px 0;
+        justify-items: center;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .title-bar {
+        padding-right: $responsive-margin;
+        background: $title-bar-back-color;
+        grid-area: $title-bar;
+        font-family: 'Poppins';
+        font-size: 26px;
+        display: flex;
+        flex-direction: column;
+    }
+    #title-bar-logo {
+        max-height: 100px;
+        display: block; // Makes svg "findable"
+        margin: auto; // And lets a easy margin creator
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    ul li {
+        display: inline;
+        text-align: center;
+    }
+    #container {
+        width: 100%;
+    }
+}
+
+.title-bar {
+    button {
+        color: $title-bar-text-color;
+        transition-duration: 0.4s;
+        font-family: "Poppins";
+        background-color: inherit;
+        border-style: none;
+        border-radius: 2px;
+    }
+    button:hover {
+        display: inline-block; // Keeps the buttons in a row
+        background-color: rgb(176, 3, 192);
+        color: white;
+        font-size: calc(2*$font-size);
+    }
+}

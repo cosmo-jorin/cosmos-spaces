@@ -1,0 +1,31 @@
+@media all and (min-width: 900px) {
+    .project-page {
+        grid-area: $content;
+        border-radius: 18px;
+        background: $content-back-color;
+        box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
+        font-family: "Poppins";
+        font-size: $font-size;
+        padding-top: 15px !important;
+        padding-left: 35px !important;
+        ul li {
+            list-style-type: square !important;
+            display: list-item;
+            flex-flow: column;
+            margin-left: 30px;
+        }
+    }
+}
+
+@media all and (max-width: 900px) {
+    .project-page {
+        grid-area: $content;
+        border-radius: 18px;
+        background: $content-back-color;
+        box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
+        font-family: "Poppins";
+        font-size: $font-size;
+        margin: 15px;
+        padding: 15px 0 15px 35px !important;
+    }
+}

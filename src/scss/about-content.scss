@@ -1,0 +1,55 @@
+@media all and (max-width: 900px) {
+    .about-content {
+        display: flex;
+        flex-flow: column;
+        border-radius: 18px;
+        background: $content-back-color;
+        font-family: "Poppins";
+        font-size: $font-size;
+        padding: 25px !important;
+        margin: 15px;
+        text-align: justify;
+        &>* {
+            animation: appear 2.5s;
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 900px) {
+    .about-content {
+        display: grid;
+        grid-area: $content;
+        border-radius: 18px;
+        background: $content-back-color;
+        box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
+        font-family: "Poppins";
+        font-size: $font-size;
+        margin: 30px 15%;
+        padding: 35px !important;
+        grid-gap: 30px;
+        grid-template-rows: 3fr 1fr 2fr;
+        grid-template-columns: 5fr 4fr;
+        grid-template-areas: "description knowledge" "now knowledge " "now cv";
+        text-align: justify;
+        margin: 25px;
+        &>* {
+            animation: appear 2.5s;
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    }
+}

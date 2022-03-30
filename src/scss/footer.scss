@@ -1,0 +1,11 @@
+.footer {
+    background: $footer-back-color;
+    font-size: $font-size;
+    grid-area: $footer;
+    font-family: "Poppins";
+    text-align: center;
+    p a {
+        text-decoration: none;
+        color: $footer-text-color;
+    }
+}
