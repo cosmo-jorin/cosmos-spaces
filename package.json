@@ -4,6 +4,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build",
         "webpack": "webpack-cli --config webpack.js",
         "webpack-w": "webpack-cli --config webpack.js --watch",
         "webpack-prod": "webpack-cli --config webpack-prod.js",
