@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "build": "npm run wepack-w&&node server.js&&npm run sass",
+        "build": "npm run webpack-w&&npm run sass&&node server.js",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "webpack": "webpack-cli --config webpack.js",
