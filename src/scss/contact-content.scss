@@ -1,5 +1,5 @@
 @media all and (max-width: 900px) {
-    .contact-content {
+    .main-content {
         grid-area: $content;
         border-radius: 18px;
         background: $content-back-color;
@@ -79,7 +79,7 @@
 }
 
 @media all and (min-width: 801px) {
-    .contact-content {
+    .main-content {
         grid-area: $content;
         height: 90%;
         border-radius: 18px;
