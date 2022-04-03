@@ -12,7 +12,7 @@ class AboutUs extends React.Component {
 
   render() {
     return (
-      <div className='portrait'>
+      <div className='main'>
         <TitleBar />
         <div className="nothing-right"></div>
         <AboutContent />
