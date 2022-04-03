@@ -6,10 +6,10 @@ import MailForm from "./MailForm.jsx";
 class Contact extends React.Component {
   render() {
     return (
-      <div className='portrait'>
+      <div className='main'>
           <TitleBar />
           <div className="nothing-left"></div>
-          <div className="contact-content">
+          <div className="main-content">
             <h1>Contact us!</h1>
             <p>Here goes a generical message</p>
             <MailForm />
