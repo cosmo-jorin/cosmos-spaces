@@ -14,8 +14,12 @@ class TitleBar extends React.Component {
 
         <div id="right">
           <ul id="title-bar-menu">
-            <li><Link to='/Information'><button>Cosmos information</button></Link></li>
-            <li><Link to='/AboutUs'><button>About us</button></Link></li>
+          <li><Link to='/'><button>Home</button></Link></li>
+            <li><Link to='/AboutUs'><button>Spaces Team</button></Link></li>
+            <li><Link to='/contact'><button>Validators</button></Link></li>
+            <li><Link to='/Information'><button>Networks</button></Link></li>
+            <li><Link to='/AboutUs'><button>Links</button></Link></li>
+            <li><Link to='/Information'><button>Airdrops</button></Link></li>
             <li><Link to='/contact'><button>Contact</button></Link></li>
           </ul>
         </div>

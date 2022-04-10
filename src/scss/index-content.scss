@@ -1,7 +1,8 @@
 @media all and (min-width: 900px) {
     .index-content {
+        overflow: hidden;
         grid-area: $content;
-        background: url(../img/background.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3527),rgba(0, 0, 0, 0.35)) , url(../img/background.png);
         background-size: cover;
         font-family: "Poppins";
         font-size: $font-size;
@@ -46,4 +47,124 @@
         border: white;
         text-align: center;
     }
+}
+
+.sky{
+    box-sizing: border-box;
+    position: relative;
+    transform: rotate(45deg);
+}
+.star {
+    transform: rotate(45deg);
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    filter: drop-shadow(0 0 6px #699bff);
+    animation: tail 3000ms ease-in-out infinite, shooting 3000ms ease-in-out infinite;
+}
+
+.star::before, .star::after {
+    position: absolute;
+    content: '';
+    right: 0;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    border-radius: 100%;
+    transform: translateX(50%) rotateZ(45deg);
+    animation: shining 3000ms ease-in-out infinite;
+}
+  
+.star::after {
+    transform: translateX(50%) rotateZ(-45deg);
+}
+
+.star:nth-child(1) {
+    top: 150px;
+    right: -100px;
+    animation-delay: 650ms;
+  }
+  .star:nth-child(1)::before, .star:nth-child(1)::after {
+    animation-delay: 650ms;
+  }
+  
+  .star:nth-child(2) {
+    top: 315px;
+    right: 125px;
+    animation-delay: 150ms;
+  }
+  .star:nth-child(2)::before, .star:nth-child(2)::after {
+    animation-delay: 150ms;
+  }
+  
+  .star:nth-child(3) {
+    top: -263px;
+    right: 150px;
+    transform: rotate(45deg);
+    animation-delay: 1600ms;
+  }
+  .star:nth-child(3)::before, .star:nth-child(3)::after {
+    animation-delay: 1600ms;
+  }
+  
+  .star:nth-child(4) {
+    left: 1300px;
+    animation-delay: 4700ms;
+  }
+
+  .star:nth-child(4)::before, .star:nth-child(4)::after {
+    animation-delay: 4700ms;
+  }
+  
+  .star:nth-child(5) {
+    top: 729px;
+    right: 441px;
+    animation-delay: 2100ms;
+  }
+  .star:nth-child(5)::before, .star:nth-child(5)::after {
+    animation-delay: 2100ms;
+  }
+
+  .star:nth-child(6) {
+    top: 529px;
+    left: 200px;
+    animation-delay: 1120ms;
+  }
+  .star:nth-child(6)::before, .star:nth-child(6)::after {
+    animation-delay: 1120ms;
+  }
+/* Animations */
+@keyframes tail {
+  0% {
+    width: 0;
+  }
+  
+  30% {
+    width: 100px;
+  }
+  
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes shining {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(320px);
+  }
 }
