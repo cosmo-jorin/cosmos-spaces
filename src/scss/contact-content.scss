@@ -4,7 +4,7 @@
         border-radius: 18px;
         background: $content-back-color;
         box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
-        font-family: "Poppins";
+        font-family: $font-family;
         font-size: $font-size;
         margin: 25px;
         padding-top: 15px !important;
@@ -65,7 +65,7 @@
             background-color: $title-bar-back-color;
             color: white;
             transition-duration: 0.4s;
-            font-family: "Poppins";
+            font-family: $font-family;
             border-radius: 15px;
             padding: 0px 10px;
             margin: 10px 10px;
@@ -85,7 +85,7 @@
         border-radius: 18px;
         background: $content-back-color;
         box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
-        font-family: "Poppins";
+        font-family: $font-family;
         font-size: $font-size;
         margin: 25px;
         padding-top: 15px !important;
@@ -146,7 +146,7 @@
             background-color: $title-bar-back-color;
             color: white;
             transition-duration: 0.4s;
-            font-family: "Poppins";
+            font-family: $font-family;
             border-radius: 15px;
             padding: 0px 10px;
             margin: 10px 10px;

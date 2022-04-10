@@ -4,7 +4,7 @@
         flex-flow: column;
         border-radius: 18px;
         background: $content-back-color;
-        font-family: "Poppins";
+        font-family: $font-family;
         font-size: $font-size;
         padding: 25px !important;
         margin: 15px;
@@ -30,7 +30,7 @@
         border-radius: 18px;
         background: $content-back-color;
         box-shadow: -5px 5px 10px $content-shadow-color, -1px 1px 5px $content-shadow-color;
-        font-family: "Poppins";
+        font-family: $font-family;
         font-size: $font-size;
         margin: 30px 15%;
         padding: 35px !important;

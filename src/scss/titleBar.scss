@@ -63,14 +63,16 @@
 
 .title-bar {
     button {
+        margin: 1px;
         color: $title-bar-text-color;
         transition-duration: 0.4s;
-        font-family: "Poppins";
+        font-family: $font-family;
         background-color: inherit;
         border-style: none;
         border-radius: 2px;
     }
     button:hover {
+        margin: 1px;
         display: inline-block; // Keeps the buttons in a row
         background-color: rgb(176, 3, 192);
         color: white;
