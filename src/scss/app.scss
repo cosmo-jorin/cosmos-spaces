@@ -4,6 +4,7 @@
 @import "./contact-content";
 @import "./about-content";
 @import "./footer";
+@import "./stars";
 body {
     margin: 0 !important;
     padding: 0 !important;
@@ -12,10 +13,10 @@ body {
 @media all and (min-width: 900px) {
     .portrait {
         height: 100vh;
-        display: grid;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3527),rgba(0, 0, 0, 0.35)) , url(../img/background.png);
         background-size: 100%;
         background-color: white;
+        display: grid;
         grid-template-rows: 2fr 17fr 1fr;
         grid-template-areas: "title-bar" "web-content" "footer";
     }
