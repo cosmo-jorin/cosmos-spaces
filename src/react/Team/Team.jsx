@@ -1,10 +1,10 @@
 import React from "react";
 import axios from "axios";
-import TitleBar from "./TitleBar.jsx";
-import AboutContent from "./AboutContent.jsx";
-import Footer from "./Footer.jsx";
+import TitleBar from "../TitleBar.jsx";
+import AboutContent from "../AboutContent.jsx";
+import Footer from "../Footer.jsx";
 
-class AboutUs extends React.Component {
+class Team extends React.Component {
   constructor(props) {
     super(props);
     this.state = { posts: [] };
@@ -22,4 +22,4 @@ class AboutUs extends React.Component {
     );
   }
 }
-export default AboutUs;
+export default Team;

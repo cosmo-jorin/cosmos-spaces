@@ -1,6 +1,6 @@
 import React from "react";
-import TitleBar from "./TitleBar.jsx";
-import Footer from "./Footer.jsx";
+import TitleBar from "../TitleBar.jsx";
+import Footer from "../Footer.jsx";
 import MailForm from "./MailForm.jsx";
 
 class Contact extends React.Component {

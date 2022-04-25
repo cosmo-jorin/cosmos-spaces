@@ -1,9 +1,9 @@
 import React from "react";
-import TitleBar from "./TitleBar.jsx";
-import AboutContent from "./AboutContent.jsx";
-import Footer from "./Footer.jsx";
+import TitleBar from "../TitleBar.jsx";
+import AboutContent from "../AboutContent.jsx";
+import Footer from "../Footer.jsx";
 
-class Information extends React.Component {
+class Validators extends React.Component {
 
   render() {
     return (
@@ -19,4 +19,4 @@ class Information extends React.Component {
 }
 
 
-export default Information;
+export default Validators;

@@ -1,7 +1,7 @@
 import React from "react";
-import TitleBar from "./TitleBar.jsx";
+import TitleBar from "../TitleBar.jsx";
 import IndexContent from "./IndexContent.jsx";
-import Footer from "./Footer.jsx";
+import Footer from "../Footer.jsx";
 
 class Index extends React.Component {
 
