@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import TitleBar from "./TitleBar.jsx";
 import IndexContent from "./IndexContent.jsx";
 import Footer from "./Footer.jsx";
