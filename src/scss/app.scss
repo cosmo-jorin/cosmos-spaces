@@ -7,7 +7,11 @@
 @import "./stars";
 @import "./banner";
 @import "./index-text.scss";
-@import "./Team/*.scss";
+
+@import "Team/team.scss";
+
+@import "Links/links.scss";
+@import "Links/portals.scss";
 
 body {
     margin: 0 !important;
