@@ -1,0 +1,7 @@
+.validators{
+    display: grid;
+    grid-area: "web-content";
+    grid-template-areas: "information" "running";
+    grid-template-rows: 1fr 2fr;
+    padding: 5%;
+}

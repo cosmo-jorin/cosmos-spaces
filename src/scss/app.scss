@@ -15,6 +15,10 @@
 @import "Links/links.scss";
 @import "Links/portals.scss";
 
+@import "Validators/validators.scss";
+@import "Validators/validatorsInformation.scss";
+@import "Validators/validatorsRunning.scss";
+
 body {
     margin: 0 !important;
     padding: 0 !important;
