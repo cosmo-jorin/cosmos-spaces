@@ -1,6 +1,8 @@
 @media all and (min-width: 900px) {
     .title-bar {
-        z-index:10;
+        position: sticky;
+        top: 0;
+        z-index: 10;
         background: $title-bar-back-color;
         grid-area: $title-bar;
         font-family: 'Poppins', 'sans-serif';
@@ -62,6 +64,9 @@
 }
 
 .title-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     button {
         margin: 1px;
         color: $title-bar-text-color;
