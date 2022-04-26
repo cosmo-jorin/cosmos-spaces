@@ -6,7 +6,8 @@ class IndexBanner extends React.Component {
     return (
         <div className="index-content-banner">
           <div className="title-banner">
-            Cosmos Spaces
+              Cosmos Spaces
+            <div className="subtitle">The Hub for everything Cosmos</div>
           </div>
         </div>
     );
