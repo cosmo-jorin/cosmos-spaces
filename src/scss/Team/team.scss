@@ -1,0 +1,19 @@
+.team{
+    grid-area: "web-content";
+    color: rgba(255,255,255);
+    text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
+    font-family: $font-family;
+    display: grid;
+    grid-column: 1fr 2fr;
+    grid-template-areas: "logo description" "carrousel carrousel";
+  }
+
+.team-carrousel{
+  grid-area: carrousel;
+  background-color: red;
+}
+
+.team-description{
+  grid-area: description;
+  padding: 0 5%;
+}

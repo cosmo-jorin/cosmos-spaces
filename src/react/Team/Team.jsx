@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
-import TitleBar from "../TitleBar.jsx";
-import AboutContent from "../AboutContent.jsx";
 import Footer from "../Footer.jsx";
+import TitleBar from "../TitleBar.jsx";
+import TeamContent from "./TeamContent.jsx";
 
 class Team extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class Team extends React.Component {
       <div className='main'>
         <TitleBar />
         <div className="nothing-right"></div>
-        <AboutContent />
+        <TeamContent />
         <div className="nothing-left"></div>
         <Footer />
       </div>
