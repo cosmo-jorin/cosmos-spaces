@@ -14,8 +14,8 @@ class App extends React.Component {
             <BrowserRouter>
               <Switch>
               <Route exact path="/" component={Index}  />
-              <Route exact path="/Airdrops" component={Airdrops}  />
-              <Route exact path="/Contact" component={Contact}  />
+              {/* <Route exact path="/Airdrops" component={Airdrops}  /> */}
+              {/* <Route exact path="/Contact" component={Contact}  /> */}
               <Route exact path="/Links" component={Links}  />
               <Route exact path="/Networks" component={Networks}  />
               <Route exact path="/Team" component={Team}  />
