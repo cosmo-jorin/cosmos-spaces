@@ -11,8 +11,12 @@ class Links extends React.Component {
         <TitleBar />
         <div className="nothing-left"></div>
         <div className="links">
-          <div className="portalRed"></div>
-          <div className="portalBlue"></div>
+        <div className="floating">
+            <div className="portalRed"></div>
+          </div>
+          <div className="floating">
+            <div className="portalBlue"></div>
+          </div>
         </div>
         <div className="nothing-right"></div>
         <Footer />
