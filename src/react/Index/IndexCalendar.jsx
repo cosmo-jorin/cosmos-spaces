@@ -7,13 +7,6 @@ class IndexCalendar extends React.Component {
             <div className="calendar">
               <div className="days">
                 <div className="weekdays">
-                  {/* <div>M</div>
-                  <div>T</div>
-                  <div>W</div>
-                  <div>T</div>
-                  <div>F</div>
-                  <div>S</div>
-                  <div>X</div> */}
                   <div>Mo</div>
                   <div>Tu</div>
                   <div>We</div>
