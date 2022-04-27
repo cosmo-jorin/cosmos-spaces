@@ -1,6 +1,6 @@
 import React from "react";
 import IndexBanner from "./IndexBanner.jsx";
-import IndexText from "./IndexText.jsx";
+import IndexCalendar from "./IndexCalendar.jsx";
 
 class IndexContent extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class IndexContent extends React.Component {
         </div>
         <div className="index-content">
           <IndexBanner/>
-          <IndexText/>
+          <IndexCalendar/>
         </div>
       </>
     );

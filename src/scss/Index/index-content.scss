@@ -1,0 +1,50 @@
+@media all and (min-width: 900px) {
+    .index-content {
+        overflow: hidden;
+        background-image: rgba(0,0,0,0);
+        font-family: $font-family;
+        font-size: $font-size;
+        position: relative;
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        grid-template-areas: "banner calendar";
+        grid-row: 2;
+        grid-column: 1;
+        grid-area: $content;
+    }
+
+    .index-background{
+        overflow: hidden;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3527),rgba(0, 0, 0, 0.35)) , url(../img/background.png);
+        background-color: white;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        font-family: $font-family;
+        font-size: $font-size;
+        position: relative;
+        grid-area: $content;
+    }
+    
+}
+
+@media all and (max-width: 900px) {
+    .index-content {
+        font-family: $font-family;
+        font-size: $font-size;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        display: grid;
+
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas: "banner" "content";
+        grid-row: 2;
+        grid-column: 1;
+
+    }
+}
