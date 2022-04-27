@@ -1,12 +1,15 @@
 @import "./variables";
 @import "./titleBar";
-@import "./index-content";
 @import "./contact-content";
 @import "./about-content";
 @import "./footer";
 @import "./stars";
-@import "./banner";
-@import "./index-text.scss";
+
+
+@import "./Index/banner";
+@import "./Index/calendar";
+@import "./Index/index-content";
+@import "./Index/index-text.scss";
 
 @import "Team/team.scss";
 @import "Team/carrousel.scss";
