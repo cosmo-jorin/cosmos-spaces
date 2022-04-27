@@ -9,7 +9,7 @@ class TeamLogo extends React.Component {
   render() {
     return (
       <div className="team-logo">
-        <video loop="true" autoplay="autoplay" id="vid" muted>
+        <video loop={true} autoPlay="autoPlay" id="vid" muted>
           <source src="/static/img/spaceloop.mp4" type="video/mp4" />
           Your browser does not support videos.
         </video>

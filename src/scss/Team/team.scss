@@ -5,15 +5,11 @@
     font-family: $font-family;
     display: grid;
     grid-column: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: "logo description" "carrousel carrousel";
   }
 
-.team-carrousel{
-  grid-area: carrousel;
-  background-color: red;
-}
-
-.team-description{
+  .team-description{
   grid-area: description;
   padding: 0 5%;
 }
