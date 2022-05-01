@@ -26,7 +26,7 @@ class TeamCarrousel extends React.Component {
             <img className='card' src="https://pbs.twimg.com/profile_images/1490144985097785344/JLpHGLP4_400x400.jpg" alt="tricky"/>
           </label><label>
             <input type="radio" name="slider" value="gainz"></input>
-            <img className='card' src="https://pbs.twimg.com/profile_images/1516761353448476672/hGVZIhDM_400x400.jpg" alt="gainz"/>
+            <img className='card' src="https://pbs.twimg.com/profile_images/1519398398109143042/z2wUbBCT_400x400.jpg" alt="gainz"/>
           </label><label>
             <input type="radio" name="slider" value="erik" ></input>
             <img className='card' src="https://pbs.twimg.com/profile_images/1502806069541675015/nSGnwhhn_400x400.jpg" alt="erik"/>
@@ -34,7 +34,6 @@ class TeamCarrousel extends React.Component {
             <input type="radio" name="slider" value="clay" ></input>
             <img className='card' src="https://pbs.twimg.com/profile_images/1514828449856339972/dn0p3hTk_400x400.jpg" alt="clay"/>
           </label>
-          
       </div>
     );
   }

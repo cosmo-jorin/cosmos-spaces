@@ -10,8 +10,20 @@ class TeamDescription extends React.Component {
   render() {
     return (
       <div className="team-description">
-        <h1>The Cosmos Spaces team</h1>
- enim lacus accumsan ligula, id malesuada dui massa tincidunt ex. Curabitur blandit dui eu diam suscipit, vitae blandit nisi egestas. Suspendisse pellentesque dolor sed mi ultrices tincidunt. Quisque eleifend felis eget accumsan tristique. Nam finibus posuere cursus. Nunc rhoncus sagittis turpis ac elementum. Suspendisse dignissim augue mattis urna tempus, vitae elementum nisl sodales. Etiam nec dui erat. In feugiat semper pharetra. Donec nec convallis sapien.Morbi luctus ante facilisis justo vehicula efficitur. Aliquam erat volutpat. Praesent efficitur lectus eget nunc varius sagittis. Mauris neque nisi, tristique et facilisis ac, ullamcorper ut turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean ac pharetra quam, ut posuere magna. Vestibulum sollicitudin sodales tellus, ac interdum enim rutrum vel. Cras finibus a arcu commodo ullamcorper. Vestibulum pulvinar semper magna in porttitor.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut non felis et elit mattis aliquam. Ut eu pulvinar dolor. Duis egestas congue accumsan. Duis cursus maximus porttitor. Integer vehicula ullamcorper eleifend. Cras ultricies ipsum in mauris ullamcorper, sit amet bibendum tortor imperdiet. Integer euismod sollicitudin libero, at aliquam nibh efficitur ac
+        <h1>The Cosmos Spaces Team</h1>
+        <p>
+          Cosmos Spaces is a team that focuses on growing the Cosmos ecosystem by onboarding new users and showing how protocols work through dialogue (Twitter spaces) and live demonstrations (Discord). 
+        </p>
+        <p>
+          Cosmos Spaces began in early 2022 with a series of talks on Twitter spaces. <br/>
+          This led to the formation of our communities on Telegram and Discord. 
+        </p>
+        <p>
+          Currently we are looking for ways to always add value, education and support to the Cosmos community.
+        </p>
+        <p>
+          This is why we have begun to validate on different blockchains in the ecosystem. A portion of the commissions are set aside for our awesome community.
+        </p>
       </div>
   );
   }
