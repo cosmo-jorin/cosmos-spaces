@@ -7,8 +7,15 @@ class ValidatorsInformation extends React.Component {
     return (
       <div className='validators-information'>
         <h1>Validators Running</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
+        <p>
+          Cosmos Spaces looked to be more involved in the ecosystem along with contributing every way we could.
+          We have a vision for our validators being community centric.
+        </p><p>
+          We want to be the voice of the community and truly have synchronist validator and delegator relationship.
+        </p><p>
+          In addition, Cosmos Hub, Osmosis, Omniflix, Comdex, e-Money, Dig and Evmos are exciting opportunities and the timing simply feels appropriate, especially considering we have great DevOps partners supporting us with the intent to expand within the  IBC.
+        </p>
+       </div>
     );
   }
 }
