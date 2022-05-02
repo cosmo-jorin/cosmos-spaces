@@ -8,9 +8,10 @@
         display: grid;
         grid-template-columns: 5fr 4fr;
         grid-template-areas: "banner calendar";
-        grid-row: 2;
-        grid-column: 1;
+        grid-row: 1;
+        grid-column: 2;
         grid-area: $content;
+        height: 100%;
     }
 
     .index-background{
@@ -25,6 +26,7 @@
         font-size: $font-size;
         position: relative;
         grid-area: $content;
+        height: 100%;
     }
     
 }

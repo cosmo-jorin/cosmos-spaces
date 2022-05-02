@@ -4,6 +4,12 @@ class IndexCalendar extends React.Component {
   render() {
     return (
           <div className="index-content-text">
+            <div className="index-content-text-lines">
+              <p>Join us!</p>
+                <li>Wednesday at 8pm</li>
+                <li>Friday & Saturday at 9pm</li>
+                <li>Sunday at 12pm</li>
+            </div>
             <div className="calendar">
               <div className="days">
                 <div className="weekdays">

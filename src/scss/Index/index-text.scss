@@ -4,5 +4,18 @@
     font-size: 25px;
     width: 370px;
     transform: translateY(0);
-    animation: float 8s ease-in-out infinite;
+    animation: float2 8s ease-in-out infinite;
+    color: white;
+    li{
+        list-style-type: none; /* Remove bullets */
+        padding-left: 25px;
+    }
+    p{
+        margin: 5% 5%;
+        color: white;
+        background-color: none;        
+    }
+    .index-content-text-lines{
+        margin-bottom: 50px;
+    }
 }
