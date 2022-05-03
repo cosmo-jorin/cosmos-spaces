@@ -6,9 +6,9 @@ class IndexCalendar extends React.Component {
           <div className="index-content-text">
             <div className="index-content-text-lines">
               <p>Join us!</p>
-                <li>Wednesday at 8pm</li>
-                <li>Friday & Saturday at 9pm</li>
-                <li>Sunday at 12pm</li>
+                <li>Wednesday at 3pm UTC</li>
+                <li>Friday & Saturday at 4pm UTC</li>
+                <li>Sunday at 7pm UTC</li>
             </div>
             <div className="calendar">
               <div className="days">

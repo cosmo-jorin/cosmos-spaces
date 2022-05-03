@@ -6,6 +6,7 @@
         background: $title-bar-back-color;
         grid-area: $title-bar;
         font-family: 'Poppins', 'sans-serif';
+        height: 100px;
     }
     ul li {
         padding: 0 5px 5px 5px;
@@ -13,13 +14,13 @@
     }
 
     #title-bar-logo {
-        max-height: 100px;
+        max-height: 80px;
         display: block; // Makes svg "findable"
         margin: auto; // And lets a easy margin creator
     }
 
     #container {
-        width: 100%;
+        width: 90%;
     }
     #left {
         float: left;

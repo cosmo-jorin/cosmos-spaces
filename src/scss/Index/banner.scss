@@ -31,6 +31,7 @@
 }
 
 .index-content-banner {
+    font-family: "Soloist";
     grid-area: banner;
     display: grid;
     grid-template-areas: ". . ." ". text ." ". . .";
@@ -40,7 +41,7 @@
     overflow: hidden;
 
     .subtitle{
-      font-size: medium;
+      font-size: .3em;
       text-shadow: .5vmin .5vmin 0 rgb(208, 46, 243), -.5vmin -.5vmin 0 rgb(21,5,106);
     }
     transform: translatey(0px);
