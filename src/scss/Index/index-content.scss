@@ -1,4 +1,9 @@
 @media all and (min-width: 900px) {
+    .index-container{
+        margin: 2%;
+        grid-area: $content;
+        height: 100%;
+    }
     .index-content {
         overflow: hidden;
         background-image: rgba(0,0,0,0);
@@ -11,7 +16,6 @@
         grid-row: 1;
         grid-column: 2;
         grid-area: $content;
-        height: 100%;
     }
 
     .index-background{
@@ -26,7 +30,6 @@
         font-size: $font-size;
         position: relative;
         grid-area: $content;
-        height: 100%;
     }
     
 }
