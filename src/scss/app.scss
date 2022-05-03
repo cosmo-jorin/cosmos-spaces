@@ -22,6 +22,14 @@
 @import "Validators/validatorsInformation.scss";
 @import "Validators/validatorsRunning.scss";
 
+
+@font-face {
+    font-family: 'Soloist';
+    src: local('Soloist'), url(../fonts/soloist/soloist1.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 body {
     margin: 0 !important;
     padding: 0 !important;
@@ -29,14 +37,15 @@ body {
 
 @media all and (min-width: 900px) {
     .portrait {
+        //background
         background-image: linear-gradient(rgba(0, 0, 0, 0.3527),rgba(0, 0, 0, 0.35)) , url(../img/background.png);
         background-color: white;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
+        // structure
         display: grid;
-        grid-template-rows: 2fr 17fr 1fr;
         grid-template-areas: "title-bar" "web-content" "footer";
     }
     .main {
@@ -47,8 +56,7 @@ body {
         background-size: cover;
 
         display: grid;
-        grid-template-columns: 3fr 19fr 3fr;
-        grid-template-rows: 2fr 17fr 1fr;
+        grid-template-columns: 3fr 15fr 3fr;
         grid-gap: 15px;
         background-color: rgba(255,255,255,.75);
         grid-template-areas: "title-bar title-bar title-bar" "nothing-left web-content nothing-right" "footer footer footer";
@@ -69,20 +77,21 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height:100%;
 
-        grid-template-rows: 2fr 17fr 1fr;
         grid-template-areas: "title-bar" "web-content" "footer";
     }
-    main {
+    .main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.3527),rgba(0, 0, 0, 0.35)) , url(../img/background.png);
         background-color: white;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height:100%;
 
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 5fr 1fr;
+        grid-template-rows: 1fr 8ft 1fr;
         grid-template-areas: "title-bar" "web-content" "footer";
     }
     .lateral-bar {
