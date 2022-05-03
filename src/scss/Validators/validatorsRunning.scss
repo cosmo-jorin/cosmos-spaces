@@ -1,12 +1,11 @@
 .validators-running{
-    padding: 5%;
+    padding: 1%;
     display: grid;
     grid-area: running;
     grid-template-areas: "1" "2";
     a {
         img {
             max-width: 90%;
-            max-height: 90%;
             display: block;
             margin: auto;
             margin-top: 5%;
@@ -19,9 +18,11 @@
 }
 
 .validators-running-1{
+    padding: 50px 0;
     display: flex;
     grid-area: 1;
     justify-content: space-evenly;
+    height: fit-content;
 
     a{
         transition: all .2s ease-in-out;

@@ -15,7 +15,7 @@ class ValidatorsRunning extends React.Component {
         <div className="validators-running-2">
           <a href="https://wallet.keplr.app/#/evmos/stake?modal=stake&validator=evmosvaloper17z0xyw6vwjn6gqj86s3axs7mjsngdl6sncdwga" target="_blank" ><img id="evmos" src='/static/img/tokens/evmos.svg' /></a>
           <a href="https://wallet.keplr.app/#/cosmoshub/stake?modal=stake&validator=cosmosvaloper13p5ckpmc9g2v8ez5qsxs00wadqvcc7q0qheh26" target="_blank" ><img src='/static/img/tokens/cosmos.svg' /></a>
-          <a href="https://wallet.keplr.app/#/emoney/stake?tab=inactive-validators&modal=stake&validator=emoneyvaloper1gzyn2r8atqwntugn93jxlmn2hhmepglkztc237" target="_blank" ><img src='/static/img/tokens/emoney.svg' /></a>
+          <a href="https://wallet.keplr.app/#/emoney/stake?tab=active-validators&modal=stake&validator=emoneyvaloper1gzyn2r8atqwntugn93jxlmn2hhmepglkztc237" target="_blank" ><img src='/static/img/tokens/emoney.svg' /></a>
         </div>
       </div>
     );
