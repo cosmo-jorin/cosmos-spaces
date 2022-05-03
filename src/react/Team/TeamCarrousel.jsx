@@ -20,7 +20,7 @@ class TeamCarrousel extends React.Component {
       <div className="team-carrousel">
           <label>
             <input type="radio" name="slider" value="hoss"></input>
-            <img className='card' src="https://pbs.twimg.com/profile_images/1513942291253284868/7a2nAJWj_400x400.jpg" alt="hoss"/>
+            <img className='card' src="https://pbs.twimg.com/profile_images/1520429496171745281/aSfwTFtv_400x400.jpg" alt="hoss"/>
           </label><label>
             <input type="radio" name="slider" value="tricky" ></input>
             <img className='card' src="https://pbs.twimg.com/profile_images/1490144985097785344/JLpHGLP4_400x400.jpg" alt="tricky"/>
