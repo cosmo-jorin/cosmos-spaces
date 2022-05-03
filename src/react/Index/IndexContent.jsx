@@ -5,7 +5,7 @@ import IndexCalendar from "./IndexCalendar.jsx";
 class IndexContent extends React.Component {
   render() {
     return (
-      <>
+      <div className="index-container">
         <div className="index-background">
           <div className="sky" style={{transform: "rotate(45deg)"}}>
             <div className="star"></div>
@@ -20,7 +20,7 @@ class IndexContent extends React.Component {
           <IndexBanner/>
           <IndexCalendar/>
         </div>
-      </>
+      </div>
     );
   }
 
