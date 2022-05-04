@@ -8,21 +8,12 @@
     flex-direction: row;
     justify-content: space-between;
 
-    input[type=radio] {
-        display: none;
-    }
-    
-    [type=radio] + img {
+    button{
+        background: none;
+        color: inherit;
+        border: none;
         cursor: pointer;
-        opacity: 50%;
-        transition: all .5s ease-in-out;
     }
-    
-    [type=radio]:checked + img {
-        opacity: 100%;
-        transform: scale(1.2);
-    }
-    
     img {
         border-radius: 10px;
         width: 150px;
