@@ -29,8 +29,7 @@
 }
 
 .star:nth-child(1) {
-    top: 150px;
-    right: -100px;
+    left: -265px;
     animation-delay: 650ms;
   }
   .star:nth-child(1)::before, .star:nth-child(1)::after {
@@ -38,7 +37,7 @@
   }
   
   .star:nth-child(2) {
-    top: 315px;
+    top: -800px;
     right: 125px;
     animation-delay: 150ms;
   }
@@ -47,8 +46,8 @@
   }
   
   .star:nth-child(3) {
-    top: -263px;
-    right: 150px;
+    top: -300px;
+    right: 250px;
     transform: rotate(45deg);
     animation-delay: 1600ms;
   }
@@ -57,7 +56,8 @@
   }
   
   .star:nth-child(4) {
-    left: 1300px;
+    left: 700px;
+    bottom: 500px;
     animation-delay: 4700ms;
   }
 
@@ -66,8 +66,8 @@
   }
   
   .star:nth-child(5) {
-    top: 729px;
-    right: 441px;
+    top: -345px;
+    left: 47px;
     animation-delay: 2100ms;
   }
   .star:nth-child(5)::before, .star:nth-child(5)::after {
@@ -75,8 +75,8 @@
   }
 
   .star:nth-child(6) {
-    top: 529px;
-    left: 200px;
+    top: -729px;
+    left: 50px;
     animation-delay: 1120ms;
   }
   .star:nth-child(6)::before, .star:nth-child(6)::after {
