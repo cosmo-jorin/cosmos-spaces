@@ -5,10 +5,10 @@ class IndexCalendar extends React.Component {
     return (
           <div className="index-content-text">
             <div className="index-content-text-lines">
-              <p>Join us!</p>
-                <li>Wednesday at 3pm UTC</li>
-                <li>Friday & Saturday at 4pm UTC</li>
-                <li>Sunday at 7pm UTC</li>
+              <p>Twitter Spaces Schedule</p>
+                <p>WED at 8:00pm EST</p>
+                <p>FRI & SAT at 9:00pm EST</p>
+                <p>SUN at 12:00pm EST</p>
             </div>
             <div className="calendar">
               <div className="days">
