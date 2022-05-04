@@ -17,7 +17,9 @@ class TeamMember extends React.Component {
     return (
       <div className="team-member" onClick={this.props.onClose}>
         <div className="team-member-body" onClick={e => e.stopPropagation()}>
-          <img id={this.props.name} src={image} alt={this.props.name}/>
+          <a href={link} target="_blank">
+            <img id={this.props.name} src={image} alt={this.props.name}/>
+          </a>
           <h1>{nick}</h1>
           <p>{information}</p>
         </div>
