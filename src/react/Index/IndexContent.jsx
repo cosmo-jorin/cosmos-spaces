@@ -6,8 +6,8 @@ class IndexContent extends React.Component {
   render() {
     return (
       <div className="index-container">
-        <div className="index-background">
-          <div className="sky" style={{transform: "rotate(45deg)"}}>
+        <div className="index-content">
+        <div className="sky" style={{transform: "rotate(45deg)"}}>
             <div className="star"></div>
             <div className="star"></div>
             <div className="star"></div>
@@ -15,8 +15,6 @@ class IndexContent extends React.Component {
             <div className="star"></div>
             <div className="star"></div>
           </div>
-        </div>
-        <div className="index-content">
           <IndexBanner/>
           <IndexCalendar/>
         </div>
