@@ -46,7 +46,8 @@
         flex-direction: column;
     }
     #title-bar-logo {
-        max-height: 100px;
+        padding-top: 10px;
+        max-height: 80px;
         display: block; // Makes svg "findable"
         margin: auto; // And lets a easy margin creator
     }

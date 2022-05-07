@@ -95,9 +95,6 @@ body {
         grid-template-rows: 1fr 8ft 1fr;
         grid-template-areas: "title-bar" "web-content" "footer";
     }
-    .lateral-bar {
-        display: none !important;
-    }
     .nothing-right {
         display: none !important;
     }
