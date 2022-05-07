@@ -30,7 +30,8 @@
 	}
 }
 
-.index-content-banner {
+@media all and (min-width: 900px) {
+  .index-content-banner {
     font-family: "Soloist";
     grid-area: banner;
     display: grid;
@@ -46,15 +47,77 @@
     }
     transform: translatey(0px);
   	animation: float 6s ease-in-out infinite;
+  }
+
+  .title-banner {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-size: 500%;
+    margin: auto;
+    padding: 30px;
+    background-color: none;
+    color: rgba(255,255,255);
+    text-shadow: 1.1vmin 1.1vmin 0 rgb(208, 46, 243), -1.1vmin -1.1vmin 0 rgb(21,5,106);
+  }
 }
 
-.title-banner {
-  transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
-  grid-area: text;
-  font-size: 500%;
-  margin: auto;
-  padding: 30px;
-  background-color: none;
-  color: rgba(255,255,255);
-  text-shadow: 1.1vmin 1.1vmin 0 rgb(208, 46, 243), -1.1vmin -1.1vmin 0 rgb(21,5,106);
+@media all and (min-width: 599px) and (max-width: 899px) {
+  .index-content-banner {
+    font-family: "Soloist";
+    grid-area: banner;
+    display: grid;
+    grid-template-areas: ". . ." ". text ." ". . .";
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    margin: 0;
+    overflow: hidden;
+    
+    .subtitle{
+      font-size: .3em;
+      text-shadow: .5vmin .5vmin 0 rgb(208, 46, 243), -.5vmin -.5vmin 0 rgb(21,5,106);
+    }
+    transform: translatey(0px);
+  	animation: float 6s ease-in-out infinite;
+  }
+  
+  .title-banner {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-size: 500%;
+    margin: auto;
+    padding: 70px 0;
+    background-color: none;
+    color: rgba(255,255,255);
+    text-shadow: 1.1vmin 1.1vmin 0 rgb(208, 46, 243), -1.1vmin -1.1vmin 0 rgb(21,5,106);
+  }
+}
+
+@media all and (max-width: 600px){
+  .index-content-banner {
+    font-family: "Soloist";
+    grid-area: banner;
+    display: grid;
+    grid-template-areas: ". . ." ". text ." ". . .";
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    margin: 0;
+    overflow: hidden;
+    
+    .subtitle{
+      font-size: .3em;
+      text-shadow: .5vmin .5vmin 0 rgb(208, 46, 243), -.5vmin -.5vmin 0 rgb(21,5,106);
+    }
+    transform: translatey(0px);
+  	animation: float 6s ease-in-out infinite;
+  }
+  
+  .title-banner {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-size: 500%;
+    padding: 70px;
+    background-color: none;
+    color: rgba(255,255,255);
+    text-shadow: 1.1vmin 1.1vmin 0 rgb(208, 46, 243), -1.1vmin -1.1vmin 0 rgb(21,5,106);
+  }
 }

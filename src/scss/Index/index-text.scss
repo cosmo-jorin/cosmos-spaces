@@ -1,21 +1,72 @@
-.index-content-text {
-    grid-area: calendar;
-    margin: auto ;
-    font-size: 25px;
-    width: 370px;
-    transform: translateY(0);
-    animation: float2 8s ease-in-out infinite;
-    color: white;
-    li{
-        list-style-type: none; /* Remove bullets */
-        padding-left: 25px;
-    }
-    p{
+@media all and (max-width: 600px){
+    .index-content-text {
+        grid-area: calendar;
+        margin-top: 20px;
+        font-size: 25px;
+        width: 370px;
+        transform: translateY(0);
+        animation: float2 8s ease-in-out infinite;
         color: white;
-        background-color: none;    
-        text-align: center;    
-    }
-    .index-content-text-lines{
-        margin-bottom: 50px;
-    }
+        li{
+            list-style-type: none; /* Remove bullets */
+            padding-left: 25px;
+        }
+        p{
+            color: white;
+            background-color: none;    
+            text-align: center;    
+        }
+        .index-content-text-lines{
+            margin-bottom: 50px;
+        }
+    }    
+}
+
+@media all and (min-width: 601px) and (max-width: 899px){
+    .index-content-text {
+        grid-area: calendar;
+        margin-top: 20px;
+        font-size: 25px;
+        width: 370px;
+        transform: translateY(0);
+        animation: float2 8s ease-in-out infinite;
+        color: white;
+        li{
+            list-style-type: none; /* Remove bullets */
+            padding-left: 25px;
+        }
+        p{
+            color: white;
+            background-color: none;    
+            text-align: center;    
+        }
+        .index-content-text-lines{
+            margin-bottom: 50px;
+        }
+    }    
+}
+
+@media all and (min-width: 900px){
+    .index-content-text {
+        grid-area: calendar;
+        margin-top: 20px;
+        font-size: 25px;
+        width: 370px;
+        transform: translateY(0);
+        animation: float2 8s ease-in-out infinite;
+        color: white;
+        margin: auto;
+        li{
+            list-style-type: none; /* Remove bullets */
+            padding-left: 25px;
+        }
+        p{
+            color: white;
+            background-color: none;    
+            text-align: center;    
+        }
+        .index-content-text-lines{
+            margin-bottom: 50px;
+        }
+    }    
 }
