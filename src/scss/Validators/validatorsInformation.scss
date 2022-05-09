@@ -1,11 +1,27 @@
-.validators-information{
-    display: grid;
-    grid-area: information;
-    color: rgba(255,255,255);
-    text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
-    font-family: $font-family;
-  
-    h1 {
-        font-family: inherit;
+@media all and (min-width: 900px) {
+    .validators-information{
+        display: grid;
+        grid-area: information;
+        color: rgba(255,255,255);
+        text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
+        font-family: $font-family;
+      
+        h1 {
+            font-family: inherit;
+        }
     }
 }
+
+@media all and (max-width: 899px) {  
+    .validators-information{
+        color: rgba(255,255,255);
+        text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
+        font-family: $font-family;
+      
+        h1 {
+            font-family: inherit;
+        }
+    }    
+}
+  
+  

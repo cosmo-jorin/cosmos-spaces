@@ -1,6 +1,18 @@
-.validators{
-    display: grid;
-    grid-area: "web-content";
-    grid-template-areas: "information" "running";
-    padding: 5%;
+@media all and (min-width: 900px) {
+    .validators{
+        display: grid;
+        grid-area: "web-content";
+        grid-template-areas: "information" "running";
+        padding: 5%;
+    }    
 }
+
+@media all and (max-width: 899px) {  
+    .validators{
+        padding: 5%;
+        direction: flex;
+        flex-direction: column;
+    }    
+}
+  
+  

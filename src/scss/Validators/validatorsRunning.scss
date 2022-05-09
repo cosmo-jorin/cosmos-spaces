@@ -1,45 +1,79 @@
-.validators-running{
-    padding: 1%;
-    display: grid;
-    grid-area: running;
-    grid-template-areas: "1" "2";
-    a {
-        img {
-            max-width: 90%;
-            display: block;
-            margin: auto;
-            margin-top: 5%;
+@media all and (min-width: 900px) {
+    .validators-running{
+        padding: 1%;
+        display: grid;
+        grid-area: running;
+        grid-template-areas: "1" "2";
+        a {
+            img {
+                max-width: 90%;
+                display: block;
+                margin: auto;
+                margin-top: 5%;
+            }
+            width: 120px;
+            height: 120px;
+            background-color: #60357e;
+            border-radius: 50%;
         }
-        width: 120px;
-        height: 120px;
-        background-color: #60357e;
-        border-radius: 50%;
+    }
+    
+    .validators-running-1{
+        padding: 50px 0;
+        display: flex;
+        grid-area: 1;
+        justify-content: space-evenly;
+        height: fit-content;
+    
+        a{
+            transition: all .2s ease-in-out;
+        }
+        a:hover{
+            transform: scale(1.4);
+        }
+    }
+    
+    .validators-running-2{
+        display: flex;
+        grid-area: 2;
+        justify-content: space-evenly;
+        a{
+            transition: all .2s ease-in-out;
+        }
+        a:hover{
+            transform: scale(1.4);
+        }
     }
 }
 
-.validators-running-1{
-    padding: 50px 0;
-    display: flex;
-    grid-area: 1;
-    justify-content: space-evenly;
-    height: fit-content;
-
-    a{
-        transition: all .2s ease-in-out;
+@media all and (max-width: 899px) {  
+    .validators-running{
+        padding: 1%;
+        a {
+            margin: 15px auto;
+            img {
+                max-width: 90%;
+                display: block;
+                margin: auto;
+                margin-top: 5%;
+            }
+            width: 120px;
+            height: 120px;
+            background-color: #60357e;
+            border-radius: 50%;
+        }
     }
-    a:hover{
-        transform: scale(1.4);
-    }
-}
-
-.validators-running-2{
-    display: flex;
-    grid-area: 2;
-    justify-content: space-evenly;
-    a{
-        transition: all .2s ease-in-out;
-    }
-    a:hover{
-        transform: scale(1.4);
+    
+    .validators-running-1, .validators-running-2{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        margin: 0 auto;
+        a{
+            transition: all .2s ease-in-out;
+        }
+        a:hover{
+            transform: scale(1.4);
+        }
     }
 }
