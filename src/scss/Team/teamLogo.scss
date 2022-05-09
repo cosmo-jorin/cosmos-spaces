@@ -1,9 +1,23 @@
-.team-logo{
-  video{
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-
+@media all and (min-width: 900px) {
+  .team-logo{
+    video{
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+  
+    }  
+  }
+      
+}
+@media all and (max-width: 899px) {
+  .team-logo{
+    video{
+      display:block;
+      width: 25%;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+    }  
   }  
 }
-  
+

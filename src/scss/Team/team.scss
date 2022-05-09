@@ -1,4 +1,5 @@
-.team{
+@media all and (min-width: 900px) {
+  .team{
     grid-area: "web-content";
     color: rgba(255,255,255);
     text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
@@ -12,4 +13,20 @@
   .team-description{
   grid-area: description;
   padding: 0 5%;
+}
+}
+@media all and (max-width: 900px) {
+  .team{
+    grid-area: "web-content";
+    color: rgba(255,255,255);
+    text-shadow: .1vmin .1vmin 0 rgb(208, 46, 243);
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+    .team-description{
+    padding: 0 5%;
+  }
 }
